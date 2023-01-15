@@ -1,33 +1,47 @@
 *{
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body{
-    background-color: aquamarine;
-}
-
-p {
-    border: 1px;
-    border-color: black;
-    border-radius: 5px;
-    background-color: aqua;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: cadetblue;
 }
 
 h1{
     text-align: center;
-    background-color: brown;
+}
+
+div {
+    position: relative;
+    margin-left: 5%;
+    background-color: aqua;
 }
 
 h3{
-    text-align: center;
+    margin: 0px;
+    padding: 5px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 1px black;
+    border-style: solid;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.heading1{
     background-color: brown;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+.heading2{
+    background-color: yellow;
+}
+
+.heading3{
+    background-color: green;
+}
+
+p{
+    padding: 5%;
 }
 
 /*LARGE DEVICES*/
@@ -38,43 +52,15 @@ h3{
     .col-lg-11, .col-lg-12 {
         float: left;
         border: 1px black;
+        border-style: solid;
+        margin: 10px;
+        
     } 
-    .col-lg-1 {
-        width: 8.33%;
-    }
-    .col-lg-2 {
-        width: 16.66%;
-    }
-    .col-lg-3 {
-        width: 25%;
-    }
+    
     .col-lg-4 {
-        width: 33.33%;
+        width: 30%;
     }
-    .col-lg-5 {
-        width: 41.65%;
-    }
-    .col-lg-6 {
-        width: 50%;
-    }
-    .col-lg-7 {
-        width: 58.33%;
-    }
-    .col-lg-8 {
-        width: 66.66%;
-    }
-    .col-lg-9 {
-        width: 74.99%;
-    }
-    .col-lg-10 {
-        width: 83.33%;
-    }
-    .col-lg-11 {
-        width: 91.66%;
-    }
-    .col-lg-12 {
-        width: 100%;
-    }
+
 }
 
 /*MEDIUM DEVICES*/
@@ -85,41 +71,33 @@ h3{
     .col-md-11, .col-md-12 {
         float: left;
         border: 1px black;
+        border-style: solid;
+        margin: 10px;
+        
     } 
-    .col-md-1 {
-        width: 8.33%;
-    }
-    .col-md-2 {
-        width: 16.66%;
-    }
-    .col-md-3 {
-        width: 25%;
-    }
-    .col-md-4 {
-        width: 33.33%;
-    }
-    .col-md-5 {
-        width: 41.65%;
-    }
+
     .col-md-6 {
-        width: 50%;
+        width: 45%;
     }
-    .col-md-7 {
-        width: 58.33%;
-    }
-    .col-md-8 {
-        width: 66.66%;
-    }
-    .col-md-9 {
-        width: 74.99%;
-    }
-    .col-md-10 {
-        width: 83.33%;
-    }
-    .col-md-11 {
-        width: 91.66%;
-    }
+
     .col-md-12 {
-        width: 100%;
+        width: 93%;
+    }
+}
+
+/*SMALL DEVICES*/
+
+@media (max-width: 767px){
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, 
+    .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, 
+    .col-sm-11, .col-sm-12 {
+        float: left;
+        border: 1px black;
+        border-style: solid;
+        margin: 10px;
+    } 
+
+    .col-sm-12 {
+        width: 90%;
     }
 }
