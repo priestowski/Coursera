@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+
+/*HEADER NAVBAR*/
+
+.navbar .navbar-collapse {
+    text-align: center;
+  }
+
+h1, h3{
+    color: red;
+}
+
+a{
+    color: black;
+}
+.collapse{
+    background-color: aqua;
+
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: black;
+}
+
+
+/*MAIN-CONTENT*/
+
+#tall-section{
+    height: 1000px;
+    background-color: aqua;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.row{
+    --bs-gutter-x: 0rem;
+}
+
